@@ -3,46 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>My Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter city..." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter city..." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
 
-    <main>
-      <div>
-        <h1>Paris</h1>
+      <main>
+        <div>
+          <h1>Paris</h1>
 
+          <p>
+            Tuesday 14:45, scattered clouds
+            <br />
+            Humidity: 66% , Wind: 3.13km/h
+          </p>
+        </div>
+        <div>🌤 12°C</div>
+      </main>
+
+      <footer>
         <p>
-          TUesday 14:45, scattered clouds
-          <br />
-          Humidity: 66% , Wind: 3.13km/h
+          This project was coded by
+          <a href="https://github.com/livjanua" target="_blank">
+            Olivia Januarie</a
+          >
+          and is open-sourced on
+          <a
+            href="https://github.com/livjanua/My-Weather-App-Project"
+            target="_blank"
+          >
+            Github</a
+          >
+          and hosted on
+          <a
+            href="https://incredible-cocada-743505.netlify.app/"
+            target="_blank"
+          >
+            Netlify</a
+          >
         </p>
-      </div>
-      <div>🌤 12°C</div>
-    </main>
-    <footer>
-      <p>
-        This project was coded by
-        <a href="https://github.com/livjanua" target="_blank">
-          Olivia Januarie</a
-        >
-        and is open-sourced on
-        <a
-          href="https://github.com/livjanua/My-Weather-App-Project"
-          target="_blank"
-        >
-          Github</a
-        >
-        and hosted on
-        <a href="https://incredible-cocada-743505.netlify.app/" target="_blank">
-          Netlify</a
-        >
-      </p>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
